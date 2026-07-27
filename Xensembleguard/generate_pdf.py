@@ -7,7 +7,7 @@ from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer,
 from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_JUSTIFY
 from reportlab.platypus import KeepTogether
 
-OUTPUT = "/Users/kasanagottusaimaniteja/Desktop/Project_Document.pdf"
+OUTPUT = "./Project_Document.pdf"
 
 doc = SimpleDocTemplate(
     OUTPUT, pagesize=A4,
