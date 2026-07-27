@@ -1,0 +1,10 @@
+Model,Accuracy,Precision,Recall,F1,AUC_ROC
+Stacking (RF meta),0.9507,0.9684,0.954,0.9611,0.9921
+Stacking (XGBoost meta) ★ OURS,0.9506,0.9682,0.954,0.9611,0.9924
+Stacking (MLP/Neural Net meta),0.9481,0.9666,0.9517,0.9591,0.9916
+Stacking (LR meta),0.9472,0.9606,0.9565,0.9586,0.9913
+Voting (Hard),0.9458,0.9644,0.9502,0.9573,
+Voting (Soft),0.9452,0.961,0.953,0.957,0.991
+Boosting (GradientBoosting),0.9437,0.9613,0.9502,0.9557,0.9904
+Bagging (Decision Tree),0.9365,0.9552,0.945,0.9501,0.9887
+Boosting (AdaBoost),0.9161,0.9209,0.9503,0.9354,0.9815

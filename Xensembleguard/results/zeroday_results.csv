@@ -1,0 +1,2 @@
+total_samples,true_attacks,flagged,true_positives,false_negatives,false_positives,precision,recall,f1
+51535,32935,11318,10387,22548,931,0.9177,0.3154,0.4694
